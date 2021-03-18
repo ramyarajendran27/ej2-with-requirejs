@@ -1,0 +1,19 @@
+{
+  "name": "ej2-requirejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && http-server -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@syncfusion/ej2-buttons": "^18.4.46",
+    "http-server": "^0.12.3",
+    "requirejs": "^2.3.6",
+    "typescript": "^4.2.3"
+  }
+}
